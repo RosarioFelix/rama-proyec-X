@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/formulario.css">
+  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+  <title>Formulario de Adopciòn</title>
+</head>
+<body>
+  <h1>Formulario de Adopciòn</h1>
+    <form id = "formulario">
+      <div class="datos">
+        <label class="label">Nombres:</label>
+        <input id="name" type="text" placeholder="Name" >
+        <br>
+        <span  class="span"></span>
+      </div>
+      <div class="datos">
+        <label class="label">Apellidos:</label>
+        <input id="lastName" type="text" placeholder="Last-name">
+        <br>
+        <span class="span"></span>
+      </div>
+      <br><br>
+      <div class="datos">
+        <label class="label">Correo: </label>
+        <input  id="email" type="text" placeholder="E-mail" >
+        <br>
+        <span id="here" class="span"></span>
+      </div>
+      <div class="datos">
+      <label class="label">Direccion:</label>
+      <input id="address" type="text"  placeholder="Address">
+      <br>
+      <span id ="aqui" class="span"></span>
+    </div>
+    <div class="datos">
+    <label class="label">Telefono:</label>
+    <input id="phone" type="number"  placeholder="Phone">
+    <br>
+    <span id="numero" class="span"></span>
+  </div>
+  <div class="datos-area">
+   <label class="label">Que te Gusta de èl?:</label><br>
+   <textarea class="text-area" rows="8" cols="80"></textarea>
+ </div>
+      <button  id= "boton" class="boton" >Enviar</button>
+    </form>
+    <br>
+    <span id="incompleto"></span>
+    <div id="div-contenedor"></div>
+<script type="text/javascript" src="assets/js/formulario.js">
+
+</script>
+</body>
+</html>

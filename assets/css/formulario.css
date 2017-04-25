@@ -1,0 +1,52 @@
+*{
+font-family: 'Patrick Hand', cursive;
+}
+h1{
+text-align: center;
+font-size: 60px;
+}
+form{
+margin-left: 200px ;
+}
+.boton{
+  position: absolute;
+  margin-left: 700px;
+  margin-top:-300px;
+  border-radius: 20px;
+  border-color:#d76713;
+  background-color: #d76713;
+  width: 200px;
+  height: 100px;
+  font-size: 24px;
+}
+label{
+font-weight: bold;
+font-size: 22px;
+}
+
+input{
+  width: 200px;
+  height: 30px;
+  margin-left:5px;
+}
+span{
+margin-left: 80px;
+}
+#here{
+margin-left: 70px;
+display: block;
+color: red;
+}
+
+#incompleto{
+  width: 200px;
+margin-top: -200px;
+margin-left: 895px;
+display: block;
+color: red;
+}
+.datos-area{
+margin-top: 200px;
+margin-left: 50px;
+display: block;
+}
